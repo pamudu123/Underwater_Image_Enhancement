@@ -27,7 +27,7 @@ def create_grid(images_info, rows, cols):
     plt.savefig('layes.png', dpi=300)
     plt.show()
 
-# List of image data (path, row, col, title)
+# List of image data (path, , title)
 image_data = [
     ("layer_outputs/block1_pool.png", "1"),
     ("layer_outputs/block1_conv2.png","5"),
